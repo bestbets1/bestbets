@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bestbets-dev-64955-authRole",
+      "UnauthRoleArn": "arn:aws:iam::820626187184:role/amplify-bestbets-dev-64955-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::820626187184:role/amplify-bestbets-dev-64955-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bestbets-dev-64955-deployment",
+      "UnauthRoleName": "amplify-bestbets-dev-64955-unauthRole",
+      "StackName": "amplify-bestbets-dev-64955",
+      "StackId": "arn:aws:cloudformation:us-east-1:820626187184:stack/amplify-bestbets-dev-64955/d3eef310-bfaa-11eb-830c-0ee15019571d",
+      "AmplifyAppId": "d2obt71xgja8x6"
+    }
+  },
+  "auth": {
+    "bestbets24e43fad": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-bestbets-dev-64955-deployment/amplify-cfn-templates/auth/bestbets24e43fad-cloudformation-template.yml",
+        "logicalId": "authbestbets24e43fad"
+      },
+      "lastPushTimeStamp": "2021-05-28T12:38:58.602Z",
+      "output": {
+        "UserPoolId": "us-east-1_jEosbo41P",
+        "AppClientIDWeb": "2br0m1ail3g6l2mkb3168oeq8j",
+        "AppClientID": "6r213r931rl2632vij532e16vi",
+        "IdentityPoolId": "us-east-1:8203139b-09e9-4d5a-9592-a961e9dc8f36",
+        "IdentityPoolName": "bestbets24e43fad_identitypool_24e43fad__dev",
+        "UserPoolName": "bestbets24e43fad_userpool_24e43fad"
+      },
+      "lastPushDirHash": "cNyE5vzB5ZQu6/w7BPCLhCVikf4="
+    }
+  }
+}

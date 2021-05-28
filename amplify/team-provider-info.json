@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bestbets-dev-64955-authRole",
+      "UnauthRoleArn": "arn:aws:iam::820626187184:role/amplify-bestbets-dev-64955-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::820626187184:role/amplify-bestbets-dev-64955-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bestbets-dev-64955-deployment",
+      "UnauthRoleName": "amplify-bestbets-dev-64955-unauthRole",
+      "StackName": "amplify-bestbets-dev-64955",
+      "StackId": "arn:aws:cloudformation:us-east-1:820626187184:stack/amplify-bestbets-dev-64955/d3eef310-bfaa-11eb-830c-0ee15019571d",
+      "AmplifyAppId": "d2obt71xgja8x6"
+    },
+    "categories": {
+      "auth": {
+        "bestbets24e43fad": {}
+      }
+    }
+  }
+}
